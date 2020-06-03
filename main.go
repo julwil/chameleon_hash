@@ -14,7 +14,7 @@ func main() {
 	keygen(128, &p, &q, &g, &hk, &tk)
 
 	msg1 = []byte("YES")
-	msg2 = []byte("Tralalal")
+	msg2 = []byte("NO")
 
 	r1 = randgen(&q)
 	s1 = randgen(&q)
